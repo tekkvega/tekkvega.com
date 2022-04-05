@@ -2768,6 +2768,28 @@ input, select, textarea {
 			.nav__links li a:hover {
 				color: #009cbf;
 			}
+			
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+  .menu {
+    display: initial;
+  }
+}
+
 
 /* Menu */
 
