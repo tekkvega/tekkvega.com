@@ -22,4 +22,4 @@ jobs:
         BRANCH: master
       env:
         PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
-        FOLDER: build
+        FOLDER: ./
